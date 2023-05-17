@@ -67,5 +67,17 @@ public class FlujoControl {
             System.out.println("La seleccion está fuera del rango");
         }
 
+        //---------------------------------------------
+        /*
+        *Operador ternario
+        * Sintaxis
+        *       expresion ? respuesta_si_es_true : si_es_false
+        */
+
+        numero = 11;
+        String texto1= "La seleccion está dentor del rango";
+        String texto2= "La seleccion está fuera del rango";
+        System.out.println((numero >= 1 && numero <= 10)? texto1:texto2);
+
     }
 }
